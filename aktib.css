@@ -1,0 +1,157 @@
+li.aktib{
+    background-color: white;
+   transition: .9s;
+    
+}
+
+li.aktib > a > p {
+    color:darkslategray;
+    text-decoration: underline; 
+    
+}
+.hide{
+   transform: translateX(100%);
+}
+.sidebar.active {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+.showNhide{
+    
+    padding:12px;
+    border:none;
+    background-color: darkslategray;
+    color:white;
+    font-size: 20px;
+}
+.margin{
+margin:auto;
+}
+.labas{
+    display:block;
+    
+    z-index: 99;
+}
+.float{
+    float:right;
+}
+.show{
+        
+        float:none;
+        width: 100%;
+    margin-left: 0;
+    
+}
+li.aktib > a > i {
+    color:darkslategray;
+}
+li.aktib > ul > li > a > p {
+    color:darkslategray;
+}
+li.aktib > ul {
+    background-color:white;
+}
+li.aktib:not(.not){
+    padding-left:30px;
+}
+div.panel{
+    
+    background-color: white;
+    
+}
+
+.livesearch{
+    background-color: darkslategray;
+}
+.livesearch button{
+    color:white;
+}
+
+.dropdown-menu > li > a:not(.wew):hover{
+    background-color: teal;
+    
+}
+.notifhov{
+    background-color: seagreen;
+}
+#delete{
+    margin: 17.5% 0 0 68%;
+}
+.approveBoxes{
+    border: 1px solid grey;
+    
+}
+#close{
+    position: relative;
+    margin-top: 0px;
+    color:darkseagreen;
+}
+.approveNotif{
+    padding:20px;
+    background-color: darkslategray;
+    margin-bottom: 30px;
+    color: white;
+}
+.updateBtn{
+    
+    background-color: darkslategray;
+    color: white;
+}
+input.input{
+    background-color: #404040;
+    color:white;
+    
+}
+select.input{
+    background-color: #404040;
+    color:white;
+}
+textarea.input{
+    background-color: #404040;
+    color:white;
+}
+.slate{
+    background-color: #D0D0D0;
+    color:black;
+    padding:10px; border:1px solid grey;
+}
+.white{
+    background-color: white;
+    color: black;
+    
+}
+table.statusUp > td, table.statusUp > th {
+    padding:30px;
+}
+label{
+    color:seagreen;
+}
+
+input.chickbox{
+    padding:10px;
+    color:red;
+}
+.border{
+    border-right: 1px solid grey;
+}
+.borderB{
+   
+    padding:5px;
+    margin:0 auto;
+}
+.realSlate{
+    background-color: #404040;
+}
+/*
+footer{
+    background:#e8e8e8;
+    
+    color:#404040;
+  position: relative;
+    bottom:0;
+margin:auto;
+      width: 99%;
+   padding:10px;
+}*/
